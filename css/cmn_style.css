@@ -1,0 +1,12 @@
+/* =================================
+ Basic
+================================= */
+
+/* text
+---------------------------------------------------------- */
+
+.ta_center { text-align: center;}
+.ta_left { text-align: justify;}
+.ta_right { text-align: right;}
+
+.fw_bold { font-weight: bold;}
