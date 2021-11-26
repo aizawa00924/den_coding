@@ -94,7 +94,7 @@
   font-size: 1.8rem;
   text-align: center;
 }
-/* -- 2021 sp add start-- */
+/* -- 2021 sp add start -- */
 .new_l-cont {
   width: 100%;
 }
@@ -245,7 +245,7 @@
 }
 
 
-/* -- 2021 add common -- */
+/* -- 2021 add common start-- */
 .txt_pink {
   color: #eb7794;
 }
@@ -278,6 +278,7 @@
 .mb_24 {
   margin-bottom: 24px;
 }
+/* -- 2021 add common fin-- */
 .p-index_MPFeature {
   background-color: #e2f5fb;
 }
