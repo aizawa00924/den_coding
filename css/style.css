@@ -102,8 +102,8 @@
   position: relative;
   z-index: 0;
   width: 100%;
-  min-height: 660px;
-  height: 85vh;
+  min-height: 740px;
+  height: 90vh;
   background-image: url(../img/21_kv_sp_background.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -139,10 +139,10 @@
   width: 60%;
 }
 .new_p-index_key_list {
-  margin: 35px 0 10px;
+  margin: 55px 0 10px;
 }
 .new_p-index_key_list li {
-  width: 70%;
+  width: 75%;
   margin: 10px auto 0;
 }
 .new_p-index_key_list li:last-child {
@@ -209,14 +209,16 @@
   padding: 20px;
   margin: 10px 0 0;
   color: #2667a7;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
 .new_p-index_ceramic .p-index_detail_wrapper .p-index_detail_wrapper_text .p-index_detail_wrapper_text_inn {
-  background:#82ebb2;
+  background:#ddf7ef;
   padding: 20px;
   margin: 10px 0 0;
   color: #0b675b;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
 .p-index_detail_wrapper .p-index_detail_wrapper_picture {
   width: 80%;
@@ -237,8 +239,8 @@
 }
 .p-index_special_wrapper .p-index_special_wrapper_text_inn {
   padding: 0 4% 20px;
-  font-size: 1.4rem;
-  line-height: 1.3;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
 .p-index_special_wrapper .p-index_special_wrapper_text_inn p {
   margin: 10px 0;
@@ -248,6 +250,9 @@
 /* -- 2021 add common start-- */
 .txt_pink {
   color: #eb7794;
+}
+.txt_green {
+  color: #34887c;
 }
 .txt_bold {
   font-weight: bold;
@@ -259,7 +264,7 @@
   background-image: linear-gradient(to right, #3b98d3, #79d7df);
 }
 .cv_green {
-  background-image: linear-gradient(to right, #3b98d3, #79d7df);
+  background-image: linear-gradient(to right, #3bd3b7, #79dfc7);
 }
 .cv_bg_white {
   background-color: rgba(255, 255, 255, 0.5);
@@ -277,6 +282,9 @@
 }
 .mb_24 {
   margin-bottom: 24px;
+}
+.only_pc {
+  display: none;
 }
 /* -- 2021 add common fin-- */
 .p-index_MPFeature {
@@ -775,6 +783,144 @@
   .p-index_clinic_tel a {
     pointer-events: none;
   }
+/* 2021 add */
+.l-header_wrap {
+  justify-content: space-between;
+}
+.new_p-index_key {
+  background-image: url(../img/21_kv_pc_background_color.png);
+  background-size: cover;
+}
+.new_p-index_key_head{
+  width: 35%;
+  margin: 20px 0 0;
+  padding: 10px 0;
+}
+.new_p-index_key_wrap {
+  padding: 0 0 0 5%;
+  margin: 10% 0;
+}
+.new_p-index_copy {
+  display: none;
+}
+.new_p-index_key_ttl {
+  margin: 30px 0 35px;
+  width: 35%;
+}
+.new_p-index_key_list {
+  display: flex;
+  width: 70%;
+}
+.new_p-index_key_list li {
+  width: 35%;
+  margin: 10px 0;
+}
+.new_p-index_key_list li:last-child {
+  margin: 10px 0;
+}
+.l-header_logo {
+  width: 280px;
+}
+.new_btn_pc {
+  width: 260px;
+  height: auto;
+  background: none;
+
+}
+.new_btn_pc a {
+  padding: 5px;
+}
+.new_btn_pc a:hover{
+  opacity: 0.5;
+}
+.new_btn_pc a img {
+  width: 240px;
+  margin: 0;
+}
+.l-header_tel_number {
+  font-size: 2.6rem;
+}
+
+.new_p-index_mouthpiece .p-index_header img {
+  width: 395px;
+  margin: -50px auto 0;
+}
+.new_p-index_ceramic .p-index_header img {
+  width: 395px;
+  margin: -50px auto 0;
+}
+.p-index_detail_wrapper {
+  display: flex;
+  margin: 40px 0;
+}
+.p-index_detail_wrapper_text {
+  margin: 0 0 0 10%;
+  width: 40%;
+}
+
+.p-index_detail_wrapper .p-index_detail_wrapper_picture {
+  width: 30%;
+  margin: 20px 5% 0;
+  max-width: 420px;
+  height: auto;
+}
+.p-index_detail_wrapper .p-index_detail_wrapper_picture_line2 {
+  display: block;
+  width: 40%;
+  margin: 90px 8% 0 2%;
+}
+.p-index_detail_wrapper .p-index_detail_wrapper_picture_line2 .p-index_detail_wrapper_picture {
+  margin: 0 auto;
+  height: auto;
+  display: inline-block;
+}
+
+.p-index_special_wrapper {
+  margin-top: 100px;
+  position: relative;
+  min-height: 430px;
+}
+
+.p-index_special_wrapper .p-index_special_wrapper_text_top {
+  width: 60%;
+  margin: 20px auto 0;
+  padding: 30px 0;
+}
+.p-index_special_wrapper .p-index_special_wrapper_text_inn p {
+  margin: 10px 0;
+}
+.p-index_special_wrapper_text_inn_down {
+  width: 62%;
+  margin: 30px 0;
+}
+.p-index_special_wrapper .p-index_special_wrapper_text_inn {
+  font-size: 1.6rem;
+}
+ .txt_bold {
+   font-size: 1.8rem;
+ }
+
+ .p-index_special_wrapper .p-index_special_wrapper_picture {
+  width: 30%;
+  right: 0;
+  position: absolute;
+  bottom: 0px;
+ }
+
+.cv_inner {
+  width: 50%;
+}
+.cv_inner a:hover {
+  opacity: 0.5;
+}
+
+
+.only_pc {
+  display: block !important;
+}
+.only_sp {
+  display: none !important;
+}
 }
 
 /* =================================
