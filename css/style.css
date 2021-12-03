@@ -198,8 +198,14 @@
     right: 0;
     opacity: 0;
 }
-.fadein{
+.fadein {
   opacity: 1;
+}
+.gm-style .place-card .review-box {
+  display:none!important;
+}
+.gm-style .review-box {
+  display:none!important;
 }
 
 /* -- 2021 sp add fin -- */
@@ -615,7 +621,7 @@
   font-weight: bold !important;
 }
 .p-index_clinic_map {
-  height: 350px;
+  height: 299px;
   margin-top: 40px;
   border: 1px solid #ccc;
 }
@@ -926,6 +932,9 @@
   opacity: 0.5;
 }
 
+.gm-style .review-box {
+  display:none!important;
+}
 
 .only_pc {
   display: block !important;
@@ -993,25 +1002,17 @@ _:-ms-lang(x)::-ms-backdrop, .p-index_equipment_ttl {
   PC min common
 ================================= */
 @media only screen and (max-width: 1240px) and (min-width: 768px) {
-  .p-index_key {
-    background-position: 30% center;
-  }
-  .p-index_key::before {
-    width: 724px;
-  }
+    .new_p-index_key {
+    background-image: url(../img/21_kv_pc_background_color.png);
+    background-size: cover;
+    min-height: unset;
+    height: 55vh;
+    }
 }
 
 /* =================================
   TAB common
 ================================= */
-@media screen and (min-width: 768px) and (max-width: 960px) {
-  .p-index_key {
-    background-position: 30% center;
-  }
-  .p-index_key::before {
-    width: 724px;
-  }
-}
 
 /* =================================
  SP
@@ -1249,7 +1250,7 @@ _:-ms-lang(x)::-ms-backdrop, .p-index_equipment_ttl {
   }
   .p-index_clinic_map {
     margin-top: 20px;
-    height: 250px;
+    height: 300px;
   }
   .p-index_equipment {
     padding: 20px 0;
@@ -1268,6 +1269,9 @@ _:-ms-lang(x)::-ms-backdrop, .p-index_equipment_ttl {
   .p-index_equipment_top {
     margin-bottom: 22px;
   }
+    .gm-style .review-box {
+      display:none!important;
+    }
 }
 
 /* =================================
