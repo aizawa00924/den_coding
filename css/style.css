@@ -189,6 +189,18 @@
 .new_p-index_ceramic .p-index_header img {
   margin: -50px 0 0 0;
 }
+.l-footer_bottom {
+    position: fixed;
+    z-index: 100000;
+    cursor: pointer;
+    width: 160px;
+    bottom: 180px;
+    right: 0;
+    opacity: 0;
+}
+.fadein{
+  opacity: 1;
+}
 
 /* -- 2021 sp add fin -- */
 
